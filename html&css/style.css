@@ -1,0 +1,28 @@
+body>header { text-align: center; }
+body>header>nav>ul {
+    margin: 0;
+    padding: 0;
+    background-color: Orange;
+    list-style-type: none;
+}
+
+
+body>header>nav>ul>li:hover { background-color: #FF8000; }
+body>header>nav>ul>li:active { background-color:  #FFCC99; }
+body>header>nav>ul>li { display: inline-block; }
+body>header>nav>ul>li>a {
+    display: block;
+    padding: 1em;
+    color: White;
+    text-decoration: none;
+}
+
+
+body>main { padding: 1em; }
+body>main>div {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 1em;
+    width: 33%;
+    vertical-align: top;
+}
